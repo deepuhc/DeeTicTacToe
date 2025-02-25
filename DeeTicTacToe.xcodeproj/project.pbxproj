@@ -14,6 +14,7 @@
 		03193C042D6D6ADE00910DB2 /* DeeTicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03193C032D6D6ADE00910DB2 /* DeeTicTacToeTests.swift */; };
 		03193C0E2D6D6ADE00910DB2 /* DeeTicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03193C0D2D6D6ADE00910DB2 /* DeeTicTacToeUITests.swift */; };
 		03193C102D6D6ADE00910DB2 /* DeeTicTacToeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03193C0F2D6D6ADE00910DB2 /* DeeTicTacToeUITestsLaunchTests.swift */; };
+		03193C1D2D6D6C2B00910DB2 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03193C1C2D6D6C2B00910DB2 /* GameViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		03193C092D6D6ADE00910DB2 /* DeeTicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeeTicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03193C0D2D6D6ADE00910DB2 /* DeeTicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeTicTacToeUITests.swift; sourceTree = "<group>"; };
 		03193C0F2D6D6ADE00910DB2 /* DeeTicTacToeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeTicTacToeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		03193C1C2D6D6C2B00910DB2 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				03193BF22D6D6AD700910DB2 /* DeeTicTacToeApp.swift */,
 				03193BF42D6D6AD700910DB2 /* ContentView.swift */,
 				03193BF62D6D6ADE00910DB2 /* Assets.xcassets */,
+				03193C1C2D6D6C2B00910DB2 /* GameViewModel.swift */,
 				03193BF82D6D6ADE00910DB2 /* Preview Content */,
 			);
 			path = DeeTicTacToe;
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03193C1D2D6D6C2B00910DB2 /* GameViewModel.swift in Sources */,
 				03193BF52D6D6AD700910DB2 /* ContentView.swift in Sources */,
 				03193BF32D6D6AD700910DB2 /* DeeTicTacToeApp.swift in Sources */,
 			);
